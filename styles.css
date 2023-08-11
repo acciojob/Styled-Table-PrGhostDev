@@ -1,1 +1,22 @@
-/* your code */
+/* Apply styles to your table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #3498db;
+}
+
+th, td {
+    border: 1px solid #3498db;
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #3498db;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
